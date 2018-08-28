@@ -18,6 +18,11 @@ import com.mobiledevelopment.mvplogindemo.R;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * The LoginActivity is the view where all the interaction with the user will happen. The view
+ * implements the ({@link LoginView}) by which it gets the responses from the presenter.
+ * The view uses an interface of the presenter.
+ */
 public class LoginActivity extends AppCompatActivity implements LoginView, View.OnClickListener {
     @BindView(R.id.et_login_activity_username) EditText username;
     @BindView(R.id.et_login_activity_password) EditText password;

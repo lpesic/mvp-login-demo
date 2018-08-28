@@ -1,5 +1,8 @@
 package com.mobiledevelopment.mvplogindemo.LoginActivity;
 
+/**
+ * Used by the presenter to communicate with the view
+ **/
 public interface LoginView {
     void showProgressBar();
 

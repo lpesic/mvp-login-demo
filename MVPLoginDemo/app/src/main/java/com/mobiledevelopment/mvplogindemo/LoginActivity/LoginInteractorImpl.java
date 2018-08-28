@@ -4,6 +4,11 @@ import android.os.Handler;
 
 import com.mobiledevelopment.mvplogindemo.Utils.CommonFunctions;
 
+/**
+ * This class is model and interact with the presenter to provide the "data"
+ * The model then uses: listener.onUsernameError / listener.onPasswordError /  listener.onSuccess
+ * to send results back to the presenter
+ */
 public class LoginInteractorImpl implements LoginInteractor {
     @Override
     public void checkLoginData(String username, String password, OnLoginListener listener) {

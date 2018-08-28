@@ -1,5 +1,12 @@
 package com.mobiledevelopment.mvplogindemo.LoginActivity;
 
+/**
+ * The LoginPresenterImpl class is the presenter class which communicates between the view and
+ * the model. This class implements ({@link LoginPresenter}) with which the view communicate with
+ * the presenter and the ({@link LoginInteractor.OnLoginListener}) from which the model
+ * communicates with the presenter.
+ */
+
 public class LoginPresenterImpl implements LoginPresenter, LoginInteractor.OnLoginListener {
     private LoginView loginView;
     private LoginInteractor loginInteractor;
