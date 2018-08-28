@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MVPLoginDemo</string>
+    <string name="unknown_view">Unknown view</string>
+</resources>
